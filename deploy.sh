@@ -1,6 +1,5 @@
 #!/bin/sh
-# Usage: deploy.sh <git-clone-url> dest_directory OPTIONS
-# Where OPTIONS are passed to docker run. SHA1 hash of repository's master is used as docker image name. 
+# See README for usage 
 
 git clone $1 $2
 cd $2
